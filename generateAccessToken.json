@@ -1,0 +1,40 @@
+{
+  "log": {
+    "version": "1.0",
+    "creator": { "name": "bbs", "version": "1.0", "comment": "" },
+    "browser": { "name": "Firefox", "version": "3.6", "comment": "" },
+    "pages": [],
+    "entries": [],
+    "comment": ""
+  },
+  "request": {
+    "method": "POST",
+    "url": "/v1/token/generate",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+      { "name": "Accept", "value": "application/json" },
+      { "name": "Content-Type", "value": "application/json" },
+      {
+        "name": "Authorization",
+        "value": "Basic OGI1ZmIxNDM5MTc2NDE1YWE1OTJhYTU5OThmZGE5ZmU6MmNiMWI1YmVlNDYxNDU2MDlmZDMwMjY0YzliNDYyN2E="
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"foo\": \"bar\"}"
+    }
+  },
+
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "httpVersion": "HTTP/1.1",
+    "cookies": [],
+    "headers": [],
+    "content": {},
+    "redirectURL": "",
+    "headersSize": 160,
+    "bodySize": 850,
+    "comment": ""
+  }
+}
