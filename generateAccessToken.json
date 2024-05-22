@@ -1,15 +1,13 @@
 {
-  "request": {
-    "method": "POST",
-    "url": "/v1/token/generate",
-    "httpVersion": "HTTP/1.1",
-    "headers": [
-      { "name": "Accept", "value": "application/json" },
-      { "name": "Content-Type", "value": "application/json" },
-      {
-        "name": "Authorization",
-        "value": "Basic OGI1ZmIxNDM5MTc2NDE1YWE1OTJhYTU5OThmZGE5ZmU6MmNiMWI1YmVlNDYxNDU2MDlmZDMwMjY0YzliNDYyN2E="
-      }
-    ]
-  }
+  "method": "POST",
+  "url": "/v1/token/generate",
+  "httpVersion": "HTTP/1.1",
+  "headers": [
+    { "name": "Accept", "value": "application/json" },
+    { "name": "Content-Type", "value": "application/json" },
+    {
+      "name": "Authorization",
+      "value": "Basic OGI1ZmIxNDM5MTc2NDE1YWE1OTJhYTU5OThmZGE5ZmU6MmNiMWI1YmVlNDYxNDU2MDlmZDMwMjY0YzliNDYyN2E="
+    }
+  ]
 }
